@@ -1,0 +1,123 @@
+
+body{
+    display: flex;
+    height: 100vh;
+   
+    margin:0 0 0 0;
+    
+
+}
+p{
+max-width: 500px;
+margin-left: 50px;
+ font-size:25px ;
+ font-weight: 100;
+ margin-top: 5px;
+}
+.intro{
+   
+   width: 500px;
+    background-image:url('background.png'); 
+     background-size: cover;       /* Scales the image to fill the div, cropping as little as possible */
+  background-position: center;  /* Keeps the focus on the center of the artwork */
+  background-repeat: no-repeat;
+
+  
+  
+  
+}
+.content{
+    display: flex ;
+    flex-direction: column;
+    flex-grow:1;
+   
+}
+.image{
+    display: flex;
+    
+    height:150px;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 100px;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+  
+   
+
+}
+.odin{
+    font-size: xxx-large;
+  align-self: center;
+  color: aliceblue;
+    
+}
+
+.header{
+    flex-grow: 1;
+    max-height: 200px;
+    padding-top: 10px;
+}
+.footer{
+    flex-grow: 1;
+}
+.middle{
+    flex-grow: 1;
+    max-height: 300px;
+    padding: 20px;
+    
+    box-shadow: 0px 0px 5px rgb(167, 164, 164);
+}
+.main{
+    flex-grow: 1;
+    display: flex;
+    gap:50px;
+   margin-left: 20px;
+   
+}
+.left,.right{
+ max-width: 300px;
+ height: 200px;
+ display:flex;
+ flex-direction: column;
+ justify-content: space-around;
+ 
+}
+input{
+  width:  250px;
+    height: 30px;
+    flex-shrink: 1;
+    background-color:cornsilk;
+    border:solid black 1px;
+}
+button{
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: rgb(6, 97, 122);
+    box-shadow: 4px 4px 8px rgb(22, 22, 23);
+    cursor: pointer;
+    color:rgb(236, 236, 217);
+    
+}
+.but{
+    padding-bottom: 20px;
+}
+.login{
+    font-size:large;
+    margin-left: 50px;
+    
+}
+input:focus{
+    outline:none;
+   border:solid blue 1px;
+   box-shadow: 0 0 8px rgba(0, 0, 255, 0.3);
+}
+button:active{
+    transform: translate(-3px,-3px);
+    box-shadow: 1px 1px 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
